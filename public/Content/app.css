@@ -1,0 +1,54 @@
+/*
+File: app.css
+Student: Gustavo Frei 
+Student ID: 301290162 
+Date: May 30, 2023 
+*/ 
+
+body {
+    background-color: #333;
+    color: #fff;
+    text-align: center; 
+}
+h1 {
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+.projects {
+    width: 600px;
+    height: auto;
+
+}
+
+.navbar-logo {
+    width: 130px;
+    height: auto;
+}
+
+.project-description {
+    width: 600px;
+    text-align: justify;
+   margin:auto;
+
+
+
+}
+
+.footer {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 1200px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+
+}
+
+
