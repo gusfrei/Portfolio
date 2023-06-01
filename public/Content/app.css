@@ -26,14 +26,15 @@ h1 {
 }
 
 .navbar-logo {
-    width: 130px;
+    width: 250px;
     height: auto;
+    padding: 20px;
 }
 
 .project-description {
     width: 600px;
     text-align: justify;
-   margin:auto;
+     margin:auto;
 
 
 
@@ -51,4 +52,10 @@ h1 {
 
 }
 
-
+.services  {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
