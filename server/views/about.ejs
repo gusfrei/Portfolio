@@ -5,52 +5,28 @@ Student ID: 301290162
 Date: May 30, 2023 
 
 -->
+
+
+<%- include partials/main_nav.ejs %>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= title %></title>
-  <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css' />
-  <link rel='stylesheet' href='/@fortawesome/fortawesome-free/css/all.min.css' />
+  <!-- CSS Section -->
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
   <link rel='stylesheet' href='/Content/app.css' />
 
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <style></style>
-<img src=".\Assets\images\logo-white.png" alt="Logo" class="navbar-logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/about">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/services">Services</a>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/contact">Contact</a>
-            </li>
-          </li>
-
-       </ul>
-      </div>
-    </div>
-  </nav>
-  <h4> <%= title %> page</h4>
+<h4 style="margin-top: 2%;"> <%= title %> page</h4>
   <div class="container">
     <img src="https://i.ibb.co/92H4Nb1/profilepng.png" alt="Gustavo Frei" style="width: 200px">
     <h1>Gustavo Frei<br></h1>
-    <a href=".\Assets\files\Gustavo_Frei_resume.pdf" download>
+    <a href="/Assets/files/Gustavo_Frei_resume.pdf" download>
       <button style="center;padding: 10px 20px; background-color: #000000; color: white; border: none; cursor: pointer;">
         Download Resume
       </button>
@@ -69,11 +45,16 @@ Date: May 30, 2023
   <script src="/jquery/dist/jquery.min.js"></script>
   <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="/Scripts/app.js"></script>
-</body>
-<div class="footer">
-  <p style="font-size:smaller">Created by Gustavo Frei © 2023 </p>
-</div>
-</html>
+
+    </div>
+
+
+    <%- include partials/bottom_nav.ejs %>
+
+    <%- include partials/footer.ejs %>
 
 
 
+
+
+  

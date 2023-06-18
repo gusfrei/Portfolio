@@ -3,59 +3,64 @@ File: app.css
 Student: Gustavo Frei 
 Student ID: 301290162 
 Date: May 30, 2023 
+
+teste 
 */ 
 
+
+
 body {
-    background-color: #333;
-    color: #fff;
-    text-align: center; 
+  background-color: #333;
+  color: #fff;
+  text-align: center; 
+  margin-bottom: 5%;
 }
 h1 {
-    text-align: center;
+  text-align: center;
 }
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
 }
 .projects {
-    width: 600px;
-    height: auto;
+  width: 600px;
+  height: auto;
 
 }
 
 .navbar-logo {
-    width: 250px;
-    height: auto;
-    padding: 20px;
+  width: 250px;
+  height: auto;
+  padding: 20px;
 }
 
 .project-description {
-    width: 600px;
-    text-align: justify;
-     margin:auto;
+  width: 600px;
+  text-align: justify;
+   margin:auto;
 
 
 
 }
 
 .footer {
-  display: block;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 1200px;
-  background-color: #333;
-  color: white;
-  text-align: center;
+display: block;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 1200px;
+background-color: #333;
+color: white;
+text-align: center;
 
 }
 
 .services  {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-  }
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}

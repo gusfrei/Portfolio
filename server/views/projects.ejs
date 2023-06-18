@@ -1,0 +1,54 @@
+<!-- 
+File: projects.ejs
+Student: Gustavo Frei 
+Student ID: 301290162 
+Date: May 30, 2023 
+
+-->
+
+
+<%- include partials/main_nav.ejs %>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <!-- CSS Section -->
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel='stylesheet' href='/Content/app.css' />
+
+</head>
+<body>
+
+  <h4> <%= title %> page</h4>
+  <h5>Project 1: Simple Website about Jakob Nielsen</h5>
+<img src="./Assets/images/Project_1.png" alt="Jakob Nielsen" class="projects">
+
+<p class="project-description" >This project involved creating a simple website about Jakob Nielsen, a renowned usability expert. The website provided information about his background, contributions to the field, and published works.</p>
+<br>
+<!-- Project 2: Website about Save the Amazon -->
+<h5>Project 2: Website about Save the Amazon</h5>
+<img src="./Assets/images/Project_2.png" alt="Save the Amazon"class="projects">
+<p class="project-description">This project involved developing a website dedicated to raising awareness about the importance of saving the Amazon rainforest. The website featured news articles, educational content, and ways to get involved in conservation efforts.</p>
+<br>
+<!-- Project 3: C# Minutes to Hours Converter -->
+<h5>Project 3: C# Minutes to Hours Converter</h5>
+<img src="./Assets/images/Project_3.png" alt="C# Converter"class="projects">
+<p class="project-description">In this project, we developed a C# application that converted minutes to hours. The user could input a value in minutes, and the application would calculate and display the equivalent in hours and minutes.</p>
+<script src="/jquery/dist/jquery.min.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/Scripts/app.js"></script>
+<br>
+<br>
+
+</body>
+</html>
+
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>
